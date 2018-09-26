@@ -1,0 +1,33 @@
+/* Element */
+li{
+
+}
+/* Class */
+.hello{
+
+}
+/* Id */
+#name{
+
+}
+/* Star */
+*{
+    /* Selects everything in document. */
+}
+/* Descendant Selector */
+li a{
+
+}
+/* Adjacent Selector */
+h4 + ul{
+    /* This selects all elements after the H4 */
+}
+/* Attribute Selector */
+a[href="http://www.google.com"]{
+    /* Selects all hrefs with this link. */
+}
+
+/* nth of type */
+ul:nth-of-type(3){
+    /* Changes the third UL. */
+}

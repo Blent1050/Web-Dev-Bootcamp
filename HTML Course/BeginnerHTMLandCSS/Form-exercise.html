@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Exercise</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form>
+
+        <!-- Name -->
+        <label>
+            First Name:
+            <input type="text" placeholder="John" required>
+        </label>
+        <label>
+            Last Name:
+            <input type="text" placeholder="Smith">
+        </label> <br>
+
+        <!-- Gender -->
+        <label>
+            Male
+            <input name="gender" type="radio" value="male">
+        </label>
+        <label>
+            Female
+            <input name="gender" type="radio" value="female">
+        </label>
+        <label>
+            Other
+            <input name="gender" type="radio" value="other">
+        </label> <br>
+
+        <!-- Email and password -->
+        <label>
+            Email:
+            <input type="email" placeholder="email@email.com" required>
+        </label>
+
+        <label>
+            Password:
+            <input type="password" placeholder="your password" pattern=".{5,10}" required title="More than 5 characters less than 10.">
+        </label> <br>
+
+        <!-- Birthday -->
+        <label>Birthday:</label>
+        <select name="birthday">
+            <option value="month">Month</option>
+        </select>
+        <select name="birthday">
+            <option value="day">Day</option>
+        </select>
+        <select name="birthday">
+            <option value="year">Year</option>
+        </select> <br>
+
+        <!-- Terms -->
+        <label>I agree to the terms and conditions</label>
+        <input type="checkbox">
+
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>

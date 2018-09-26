@@ -1,0 +1,10 @@
+body{
+    background: url(../material_02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: red;
+    border: 1px solid purple;
+}
