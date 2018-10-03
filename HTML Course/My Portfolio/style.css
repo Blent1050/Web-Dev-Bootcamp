@@ -5,3 +5,8 @@ i{
     padding-right: 10px;
     font-size: 1.2em;
 }
+body, html { 
+	margin:0;
+	overflow: hidden;
+	padding: 0
+}
